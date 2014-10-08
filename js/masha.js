@@ -173,6 +173,9 @@ MaSha.prototype = {
     },
 
     hashChange: function(){
+        //Its removing all remaining markers/hash, no need to do anything here
+        return;
+        
         if(this.lastHash != this.options.location.getHash()){
              var numclasses = [];
              for(var k in this.ranges) {

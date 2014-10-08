@@ -184,8 +184,8 @@ jQuery(document).ready(function () {
 
 
             // Instantiate history keeper
-            try { $('#jr-content').jr_HistoryKeeper() }
-            catch (e) { console.error(e.message) }
+            // try { $('#jr-content').jr_HistoryKeeper() }
+            // catch (e) { console.error(e.message) }
 
             // Instantiate "find in page" (fip) module
 			try { $('#jr-fip').trackFocus().jr_Fip({
